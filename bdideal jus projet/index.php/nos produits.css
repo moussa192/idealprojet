@@ -1,0 +1,193 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Roboto condensed' , sans-serif;
+}
+body{
+height: 100%;
+}
+.navbar{
+padding: 20px 5%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0%;
+z-index: 999;
+background-color: blue;
+word-spacing: 20px;
+}
+.navbar .logo img
+{
+width: 30px;
+height: 30px;
+cursor: pointer;
+}
+.navbar .menu li
+{
+list-style: none;
+display: inline-block;
+}
+.navbar .menu li a
+{
+display: block;
+margin-left: 20ox;
+color: green;
+border-bottom: 4px solid transparent;
+text-decoration:none ;
+font-size: 20px;
+font-weight: bold;
+}
+.navbar .menu li .active
+{
+border-bottom: 4px solid #663ef6;
+}
+.navbar .menu li a:hover{
+border-bottom: 4px solid #f63e4e;
+cursor: pointer;
+background: black;
+color: white;
+}
+.content{
+background-image: url(copi.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding: 0 5%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+color: black;
+height: 100vh;
+}
+.content h1{
+font-size: 40px;
+}
+.content p{
+font-size: 20px;
+margin-top: 20px;
+}
+.content button{
+margin-top: 30px;
+padding: 15px 30px;
+border: none;
+background: white;
+color: blue;
+border-radius: 5px;
+cursor: pointer;
+}
+.content button:hover{
+cursor: pointer;
+background: black;
+color: white;
+}
+.produits_text{
+text-align: center;
+font-size: 30px;
+font-weight: 300;
+margin-top: 10;
+margin-left: 400px;
+color: darkslateblue;
+border:solid 5px green;
+width: 400px;
+height: 30px;
+background-color: chartreuse;
+}
+.section_produits{
+padding: 20px 5%;
+background-image: url(coctail.jpg);
+}
+.produits{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.produits .carte{
+width: 310px;
+background: #f5f5f5;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+border-radius: 10px;
+margin-bottom: 20px;
+}
+.produits .carte img{
+height: 230px;
+width: 100%;
+border-radius: 10px;
+}
+.produits .carte .desc{
+padding: 5px 20px;
+opacity: 0.8;
+}
+.produits .carte .titre{
+font-weight: 900;
+font-size: 20px;
+color: darkmagenta;
+padding: 0 20px;
+}
+.produits .carte .box{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+.produits .carte .prix{
+color: red;
+font-size: 20px;
+font-weight: bold;
+}
+.produits .carte .achat{
+font-size: 13px;
+font-weight: 900;
+color: red;
+padding: 10px 10px;
+border-radius: 5px;
+}
+.produits .carte .box .achat:hover{
+cursor: pointer;
+background: black;
+color: white;
+}
+
+footer{
+text-align: center;
+height: 27vh;
+background-color: black;
+}
+footer i{
+color: #f63e4e;
+}
+footer p{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+span{
+color: blue;
+}
+.bi img{
+width: 1340px;
+height: 57px;
+}
+.wave img{
+width: 1340px;
+height: 180px;
+}
+.a{
+background-color: chartreuse;
+width: 1340px;
+height: 80px;
+align-content: center;
+}
+.a h1{
+color: white;
+text-align: center;
+align-items: center;
+padding-top: 20px;
+font-family: Arial;
+}
+.ok{
+display: flex;
+}
+.ok i{
+text-align: center;
+margin-left: 50vh;
+}
